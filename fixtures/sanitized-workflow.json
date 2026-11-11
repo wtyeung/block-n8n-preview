@@ -1,0 +1,28 @@
+{
+  "name": "Sanitized preview example",
+  "active": false,
+  "nodes": [
+    {
+      "id": "example-manual-trigger",
+      "name": "Manual Trigger",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [240, 300],
+      "parameters": {}
+    },
+    {
+      "id": "example-no-operation",
+      "name": "No Operation",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [480, 300],
+      "parameters": {}
+    }
+  ],
+  "connections": {
+    "Manual Trigger": {
+      "main": [[{ "node": "No Operation", "type": "main", "index": 0 }]]
+    }
+  },
+  "settings": {}
+}
