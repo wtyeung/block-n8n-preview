@@ -1,6 +1,6 @@
 # n8n Preview for Wiki.js
 
-Display an interactive n8n workflow diagram on a wiki page. Authors can paste workflow JSON into the block or select a JSON file uploaded to Wiki.js. Readers can view the diagram and download the workflow.
+**An installable custom content block for Wiki.js 3.3** that displays interactive n8n workflow diagrams directly on Wiki.js pages. Authors can paste workflow JSON into the block or select a JSON file uploaded to Wiki.js. Readers can view the diagram and download the workflow.
 
 **For administrators and page authors:** follow this guide. **For maintainers building or changing the package:** see [BUILDING.md](BUILDING.md).
 
